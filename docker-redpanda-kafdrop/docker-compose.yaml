@@ -20,7 +20,7 @@ services:
   kafdrop:
     image: obsidiandynamics/kafdrop:latest
     ports:
-      - "9002:9000"
+      - "9003:9000"
     depends_on:
       - redpanda
     environment:
